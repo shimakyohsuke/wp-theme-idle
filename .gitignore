@@ -1,6 +1,10 @@
 /node_modules
 /dist
 
+gulpconfig.js
+bundle.js
+style.css
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
