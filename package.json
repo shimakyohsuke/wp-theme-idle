@@ -1,0 +1,54 @@
+{
+  "name": "idle",
+  "description": "WordPress Theme",
+  "version": "0.0.1",
+  "author": {
+    "name": "shimakyohsuke",
+    "email": "hello@shimakyohsuke.com"
+  },
+  "license": "GPL-3.0+",
+  "homepage": "https://github.com/shimakyohsuke/wp-theme-idle",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shimakyohsuke/wp-theme-idle.git"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "scripts": {
+    "test": "standard './src/scripts/main.js'",
+    "build": "test && gulp build",
+    "dist": "gulp dist"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "standard": {
+    "ignore": [
+      "./bundle.js",
+      "./gulp/"
+    ]
+  },
+  "dependencies": {
+    "autoprefixer": "^6.3.3",
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^1.3.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.6.0",
+    "gulp-watch": "^4.3.5",
+    "run-sequence": "^1.1.5",
+    "standard": "^8.6.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "webpack-stream": "^3.2.0"
+  }
+}

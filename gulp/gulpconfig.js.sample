@@ -1,0 +1,13 @@
+export default {
+  browserSync: {
+    proxy: 'localhost:8080',
+    files: [
+      './style.css',
+      './bundle.js',
+      './**/*.php',
+      './**/*.png',
+      './**/*.svg',
+      './**/*.jpg'
+    ]
+  }
+};
